@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import VideoPlayer from '../components/VideoPlayer.tsx';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<h1> Custom video player</h1>
+		<VideoPlayer client:only/>
+	<main>
+</Layout>
